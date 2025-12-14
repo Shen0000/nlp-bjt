@@ -1,0 +1,129 @@
+# ::tok Investors are bailing on Boeing and one of its biggest suppliers this morning after a harrowing malfunction at 16,000 feet this weekend in which a door panel sheared off a new 737 Max 9 airliner in midflight .
+(b / bail-out-02~2
+    :ARG0 (p2 / person~0
+        :ARG0-of (i2 / invest-01~0))
+    :ARG1 (a2 / and~5
+        :op1 (c2 / company~4
+            :name (n / name~4
+                :op1 "Boeing"~4)))
+    :ARG1-of (c / cause-01~11
+        :ARG0 (m / malfunction-01~16
+            :location (d2 / distance-quantity~19
+                :quant 16000~18
+                :unit (f2 / foot~19))
+            :mod (h / harrowing~15)
+            :subevent (p3 / propose-01~27
+                :ARG0 (p / panel~26
+                    :part-of (d3 / door~25))
+                :time (f / fly-01~29
+                    :ARG1 (a / aircraft-type~34
+                        :name (n2 / name~31
+                            :op1 737~31
+                            :op2 "Max"~32
+                            :op3 9~33)
+                        :ARG1-of (n3 / new-01~30))
+                    :mod .~37))
+            :time (w / weekend~21
+                :mod (t / this~20))))
+    :rel (i / include-91~7
+        :ARG2 (c3 / company~8
+            :ARG0-of (s / supply-01~10
+                :ARG2 c2)
+            :ARG1-of (h2 / have-degree-91~9
+                :ARG2 (b2 / big~9)
+                :ARG3 (m3 / most~9))))
+    :rel 1~6
+    :time (d / date-entity~12
+        :dayperiod (m2 / morning~12)
+        :mod (t2 / today~12)))
+
+# ::tok Nearly 80 percent of all grades given to undergraduates at Yale last academic year were A’s or A minuses , part of a sharp increase that began during the coronavirus pandemic and appears to have stuck , according to a new report .
+(s / say-01~37
+    :ARG0 (r / report-01~41
+        :ARG1-of (n4 / new-01~40))
+    :ARG1 (o / or~16
+        :domain (g2 / grade~5
+            :ARG1-of (g / give-01~6
+                :ARG2 (u / undergraduate~8
+                    :location (u2 / university~10
+                        :name (n / name~10
+                            :op1 "Yale"~10)))
+                :time (y / year~13
+                    :mod (a / academia~12)
+                    :mod (l / last~11)))
+            :mod (a2 / all~4))
+        :op1 (s2 / score-on-scale-91~15
+            :ARG1 A~17
+            :op2 (m / minute~18))
+        :part-of (i2 / increase-01~24
+            :ARG1-of (s3 / sharp-02~23)
+            :ARG1-of (b / begin-01~26
+                :time (p / pandemic~30
+                    :mod (d / disease~29
+                        :name (n2 / name~29
+                            :op1 "coronavirus"~29))))))
+    :rel (g3 / grade~7
+        :ARG1-of (i / include-91~3
+            :ARG2 g2
+            :ARG3 (n3 / nearly~0
+                :op1 (p2 / percentage-entity~2
+                    :value 80~1))))
+    :rel (a3 / appear-02~32
+        :ARG1 (s4 / stick-01~35
+            :ARG1 o)))
+
+# ::tok The deal for a hostage release brought both hope and agony on Wednesday to families of captives held in Gaza .
+(b / bring-01~6
+    :ARG0 (d2 / deal-01~1
+        :ARG2 (r / release-01~5
+            :ARG1 (h3 / hostage~4)))
+    :ARG1 (a2 / and~9
+        :op1 (h2 / hopeful-03~8)
+        :op2 (a / agony~10))
+    :ARG2 (f / family~14
+        :poss (p / person~17
+            :ARG1-of (c / capture-01~16)
+            :ARG1-of (h / hold-01~17
+                :location (c2 / country-region~19
+                    :name (n / name~19
+                        :op1 "Gaza"~19)))))
+    :time (d / date-entity~12
+        :weekday (w / wednesday~12)))
+
+# ::tok North Korea fired 200 rounds of artillery into waters near its disputed western sea border with South Korea on Friday , a move that prompted the South’s military to ask residents on two nearby islands to take shelter .
+(f / fire-01~2
+    :ARG0 (c / country~0
+        :name (n / name~0
+            :op1 "North"~0
+            :op2 "Korea"~1))
+    :ARG1 (r2 / round~4
+        :quant 200~3
+        :mod (a / artillery~6))
+    :ARG1-of (m2 / move-02~22
+        :ARG0 c
+        :ARG0-of (p2 / prompt-01~24
+            :ARG1 (a2 / ask-02~29
+                :ARG0 (m / military~27
+                    :poss (c2 / country~16
+                        :name (n2 / name~16
+                            :op1 "South"~16
+                            :op2 "Korea"~17)))
+                :ARG1 (s2 / shelter-01~37
+                    :ARG1 (p / person~30
+                        :ARG0-of (r / reside-01~30
+                            :ARG1 (i / island~34
+                                :quant 2~32
+                                :location (n4 / nearby~33)))))
+                :ARG2 p)))
+    :destination (w / water~8
+        :ARG1-of (n3 / near-02~9
+            :ARG2 (b / border-01~14
+                :ARG1 c
+                :ARG2 (s / sea~13
+                    :location (w2 / west~12))
+                :ARG2 c2
+                :ARG2-of (d2 / dispute-01~11
+                    :ARG0 c))))
+    :time (d / date-entity~19
+        :weekday (f2 / friday~19)))
+
