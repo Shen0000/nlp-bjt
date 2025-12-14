@@ -1,0 +1,178 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+baseline/detect-gpt/env/
+
+# Conda
+*.conda
+.conda/
+conda-meta/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+*.db
+logs/
+*.out
+*.err
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Cache files
+.cache/
+*.cache
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# HuggingFace model cache
+.cache/huggingface/
+baseline/detect-gpt/.cache/
+baseline/cache/
+transformers_cache/
+huggingface_cache/
+
+# News data
+news_data/data/*
+
+# Conda setup
+setup_1/conda-setup_1
+setup_2/conda-setup_2
+setup_3/conda-setup_3
+
+# Model downloads and checkpoints
+models/
+*.safetensors
+model_cache/
+
+# Coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Testing
+.pytest_cache/
+nosetests.xml
+test-results/
+
+# Documentation
+docs/_build/
+site/
+
+# Data files (large datasets that shouldn't be in git)
+*.hdf5
+*.h5
+*.pkl
+*.pickle
+*.pt
+*.pth
+*.ckpt
+*.model
+*.weights
+
+# Compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Large model files
+*.bin
+*.safetensors
+checkpoint-*/
+
+# Environment configuration
+.env
+.env.*
+!.env.example
+
+# IDE
+*.sublime-project
+*.sublime-workspace
+
+# Distribution / packaging
+.Python
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Miscellaneous
+.spyderproject
+.spyproject
+.ropeproject
+baseline/detect-gpt/results/*
+baseline/detect-gpt/tmp_results/*
+
+# Repositories
+setup_2/TreeDRSparsing
+setup_1/transition-amr-parser/docAMR
+
+
+setup_1
+setup_2
+setup_3
