@@ -1,0 +1,202 @@
+# ::tok Investors are bailing on Boeing following the global grounding of its popular 737 Max jet . The stock is down nearly 14 % since Sunday , when an Ethiopian Airlines crashed minutes after takeoff . That 's wiped out $26 billion in shareholder wealth . Investors are worried that the plane wo n't be allowed to fly for months and that sales will plunge as customers lose confidence in the aircraft .
+(d2 / document
+    :snt1 (b / bail-out-02~2
+        :ARG0 (p2 / person~0
+            :ARG0-of (i / invest-01~0))
+        :ARG1 (c / company~4
+            :name (n / name~4
+                :op1 "Boeing"~4))
+        :ARG1-of (f2 / follow-01~5
+            :ARG2 (g2 / ground-01~8
+                :ARG1 (a2 / aircraft-type~12
+                    :name (n2 / name~12
+                        :op1 737~12
+                        :op2 "Max"~12)
+                    :ARG1-of (p7 / popular-02~11)
+                    :poss c)
+                :mod (g / globe~7))))
+    :snt2 (d4 / down-03~19
+        :ARG1 (s7 / stock~17
+            :same-as c)
+        :ARG2 (n4 / nearly~20
+            :op1 (p / percentage-entity~22
+                :value 14~21))
+        :time (s6 / since~23
+            :op1 (d / date-entity~24
+                :time-of (c4 / crash-01~30
+                    :ARG1 (c2 / company~28
+                        :name (n3 / name~28
+                            :op1 "Ethiopian"~28
+                            :op2 "Airlines"~28))
+                    :time (a / after~32
+                        :quant (m4 / multiple~31
+                            :op1 (t2 / temporal-quantity~31
+                                :quant 1~31
+                                :unit (m / minute~31)))
+                        :op1 (t / take-off-19~33
+                            :ARG1 c2)))
+                :weekday (s8 / sunday~24))))
+    :snt3 (w2 / wipe-out-02~37
+        :ARG0 (t4 / that~35
+            :same-as c4)
+        :rel (s3 / share~38)
+        :rel (m2 / monetary-quantity~40
+            :ARG1 (w / wealth~43
+                :poss (p3 / person~42
+                    :ARG0-of (h / hold-01~42
+                        :ARG1 (s5 / share~41))))
+            :unit (d3 / dollar~40))
+        :rel (s2 / share~36)
+        :rel (s4 / share~39))
+    :snt4 (w3 / worry-02~47
+        :ARG0 (p4 / person~45
+            :ARG0-of (i2 / invest-01~45))
+        :ARG1 (a4 / and~59
+            :op1 (a3 / allow-01~54
+                :ARG1 (f / fly-01~56
+                    :ARG1 (p5 / plane~50
+                        :same-as a2))
+                :duration (m5 / multiple~58
+                    :op1 (t3 / temporal-quantity~58
+                        :quant 1~58
+                        :unit (m3 / month~58)))
+                :polarity -~52)
+            :op2 (p6 / plunge-01~63
+                :ARG1 (s / sell-01~61)
+                :time (l / lose-02~66
+                    :ARG0 (c5 / customer~65)
+                    :ARG1 (c3 / confident-01~67
+                        :ARG1 c5
+                        :ARG2 p5))))))
+
+# ::tok Nearly 80 percent of grades given out by Yale University last year were As or A - minuses , according to a report from the school 's registrar . The figure is up more than three percentage points from 2013 and nearly six points from 2007 .
+(d3 / document
+    :snt1 (s / say-01~19
+        :ARG0 (r2 / report-01~22
+            :ARG0 (p3 / person~27
+                :ARG0-of (h2 / have-org-role-91~27
+                    :ARG1 (u / university~9
+                        :name (n / name~8
+                            :op1 "Yale"~8))
+                    :ARG2 (r / registrar~27))))
+        :ARG1 (o / or~14
+            :ARG1-of (i / include-91~3
+                :ARG2 (g / grade~4
+                    :ARG1-of (h / hand-out-03~5
+                        :ARG0 u
+                        :time (y / year~11
+                            :mod (l / last~10))))
+                :ARG3 (n2 / nearly~0
+                    :op1 (p / percentage-entity~2
+                        :value 80~1)))
+            :op1 (s3 / score-on-scale-91~13)
+            :op2 (s2 / score-on-scale-91~12
+                :ARG1 A~15)))
+    :snt2 (a / and~40
+        :op1 (u2 / up-02~32
+            :ARG1 (f / figure~30
+                :same-as i)
+            :ARG2 (m / more-than~33
+                :op1 (p2 / percentage-entity~36
+                    :value 3~35))
+            :time (d / date-entity~39
+                :year 2013~39))
+        :op2 (i2 / increase-01~44
+            :ARG1 f
+            :ARG2 (n3 / nearly~41
+                :op1 (p4 / point~43
+                    :quant 6~42))
+            :time (d2 / date-entity~45
+                :year 2007~45))))
+
+# ::tok The deal for the release of Israeli soldier Gilad Shalit , held captive in Gaza since 2006 , is still on track to be completed by June 30 . But Israeli families of hostages have been here before , and are wary about whether it will actually happen . The Jewish Journal reports :
+(d4 / document
+    :snt1 (t / track-03~21
+        :ARG1 (c2 / complete-01~24
+            :ARG1 (d3 / deal-01~1
+                :ARG2 (r / release-01~4
+                    :ARG1 (p / person~8
+                        :name (n2 / name~8
+                            :op1 "Gilad"~8
+                            :op2 "it"~8)
+                        :ARG0-of (h / have-org-role-91~7
+                            :ARG1 (c4 / country~6
+                                :name (n / name~6
+                                    :op1 "Israel"~6))
+                            :ARG2 (s2 / soldier~7))
+                        :ARG1-of (h3 / hold-01~11
+                            :ARG3 (c / captive~12)
+                            :location (c6 / country-region~14
+                                :name (n3 / name~14
+                                    :op1 "Gaza"~14))
+                            :time (s / since~15
+                                :op1 (d / date-entity~16
+                                    :year 2006~16))))))
+            :time (b3 / by~25
+                :op1 (d2 / date-entity~26
+                    :day 30~26
+                    :month 6~26)))
+        :mod (s3 / still~19))
+    :snt2 (c3 / contrast-01~29
+        :ARG2 (a2 / and~39
+            :op1 (b / be-located-at-91~32
+                :ARG1 (f / family~31
+                    :mod (c5 / country~30
+                        :name (n4 / name~30
+                            :op1 "Israel"~30))
+                    :mod (h4 / hostage~33))
+                :ARG2 (h2 / here~36)
+                :time (b2 / before~37))
+            :op2 (w / wary~41
+                :domain f
+                :topic (t2 / truth-value~43
+                    :polarity-of (i / it~44
+                        :ARG1-of (a / actual-02~46)
+                        :same-as r)))))
+    :snt3 (r2 / report-01~52
+        :ARG0 (n6 / newspaper~50
+            :name (n5 / name~50
+                :op1 "Jewish"~50
+                :op2 "newspaper"~50))))
+
+# ::tok North Korea fired artillery rounds near its disputed sea border with South Korea on Monday , prompting the South to respond by firing a barrage of shells back toward the North . The move was apparently in response to South Korean military exercises .
+(d3 / document
+    :snt1 (f / fire-01~2
+        :ARG0 (c / country~0
+            :name (n / name~0
+                :op1 "North"~0
+                :op2 "Korea"~0))
+        :ARG0-of (p / prompt-01~16
+            :ARG1 (r / respond-01~20
+                :ARG0 (c2 / country~11
+                    :name (n2 / name~11
+                        :op1 "South"~11
+                        :op2 "Korea"~11))
+                :ARG2 (f2 / fire-01~22
+                    :ARG0 c2
+                    :ARG1 (b2 / barrage-01~24
+                        :ARG1 (s2 / shell~26))
+                    :direction (b / back~27
+                        :op1 c))))
+        :ARG1 (r3 / round~4
+            :mod (a2 / artillery~3))
+        :ARG1-of (n4 / near-02~5
+            :ARG2 (b3 / border-01~9
+                :ARG1 c2
+                :ARG2 (s / sea~8)
+                :ARG2 c
+                :ARG2-of (d2 / dispute-01~7
+                    :ARG0 c)))
+        :time (d / date-entity~14
+            :weekday (m2 / monday~14)))
+    :snt2 (r2 / respond-01~37
+        :ARG1 (e / exercise-01~42
+            :ARG0 (c3 / country~39
+                :name (n3 / name~39
+                    :op1 "South"~39
+                    :op2 "Korea"~39))
+            :mod (m / military~41))
+        :ARG1-of (a / appear-02~35)
+        :ARG2 (m3 / move-02~33
+            :same-as f)))
+
